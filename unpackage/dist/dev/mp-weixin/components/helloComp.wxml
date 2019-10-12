@@ -1,0 +1,1 @@
+<view class="txt" bind:__l="__l">{{''+msg+''}}<view><input class="txt" type="text" value="{{myval}}"/></view></view>

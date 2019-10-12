@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hello-comp": "/components/helloComp",
+    "trailer-stars": "/components/trailerStars"
+  }
+}

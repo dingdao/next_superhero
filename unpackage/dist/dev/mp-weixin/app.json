@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "NEXT超英预告",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index_tab",
+        "iconPath": "static/tabBarIco/index.png",
+        "selectedIconPath": "static/tabBarIco/index_sel.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "search_tab",
+        "iconPath": "static/tabBarIco/search.png",
+        "selectedIconPath": "static/tabBarIco/search_sel.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "me_tab",
+        "iconPath": "static/tabBarIco/me.png",
+        "selectedIconPath": "static/tabBarIco/me_sel.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
